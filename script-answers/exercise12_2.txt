@@ -1,0 +1,23 @@
+
+// -inside the container bash:  //
+mkdir user
+cd user
+mkdir src 
+cd src
+mkdir app
+cd app
+touch index.js
+exit
+// back to terminal //
+
+
+// -inside the container bash:  //
+apt-get update
+apt-get -y install nano
+nano /user/src/app/index.js
+Ctrl + o // to save my work
+Ctrl + x // exit editor
+// download nodejs
+apt install -y nodejs
+apt-get -y install curl
+node /user/src/app/index.js
