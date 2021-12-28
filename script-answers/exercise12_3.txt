@@ -6,4 +6,3 @@ nano /user/src/app/index.js
 console.log('hello world')
 Ctrl + o // to save my work
 Ctrl + x // exit editor
-

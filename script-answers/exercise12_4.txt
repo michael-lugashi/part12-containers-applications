@@ -2,3 +2,20 @@
 apt install -y nodejs
 apt-get -y install curl
 node /user/src/app/index.js
+
+
+extra commands
+docker container ls -a 
+---show all files and folders
+
+docker container rm festive_bassi  
+---removes container
+
+docker container kill festive_bassi 
+---makes container stop running
+
+docker commit <name of container> <name of new container> 
+---copies image to make a new one
+
+ docker container cp ./index.js hello-node:/usr/src/app/index.js
+ ---copies files from your directerties to vertual machine
