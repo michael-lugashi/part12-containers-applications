@@ -1,0 +1,13 @@
+
+-inside the container bash: - docker run -it ubuntu bash
+mkdir user
+cd user
+mkdir src 
+cd src
+mkdir app
+cd app
+touch index.js
+exit
+back to terminal 
+
+
