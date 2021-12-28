@@ -19,3 +19,6 @@ docker commit <name of container> <name of new container>
 
  docker container cp ./index.js hello-node:/usr/src/app/index.js
  ---copies files from your directerties to vertual machine
+
+ docker run node:16 ls
+ ---lets you see all files in the image
